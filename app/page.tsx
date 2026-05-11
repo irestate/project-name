@@ -87,7 +87,7 @@ export default function Home() {
           playsInline
           aria-hidden="true"
         >
-          <source src="/hero-video.mp4" type="video/mp4" />
+          <source src="hero-video.mp4" type="video/mp4" />
         </video>
         <div className={styles.heroInner}>
           <h1>難易度の高い不動産案件に、実務で応える。</h1>
