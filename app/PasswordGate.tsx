@@ -57,7 +57,25 @@ export default function PasswordGate({
   }
 
   if (isUnlocked) {
-    return <>{children}</>;
+    if (!configuredHash) {
+      return <>{children}</>;
+    }
+
+    return (
+      <>
+        <button
+          className={styles.lockButton}
+          type="button"
+          onClick={() => {
+            window.localStorage.removeItem(storageKey);
+            setIsUnlocked(false);
+          }}
+        >
+          ロック
+        </button>
+        {children}
+      </>
+    );
   }
 
   return (
