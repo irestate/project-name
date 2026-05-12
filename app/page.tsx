@@ -10,7 +10,7 @@ const achievements = [
   },
   {
     area: "埼玉県川口市",
-    type: "工場跡地（更地）",
+    type: "工場等跡地（更地）",
     price: "1億円〜3億円",
     feature: "土壌汚染調査・除去を伴う案件",
   },
@@ -36,11 +36,11 @@ const propertyTypes = [
     image: "property-rebuild-disabled.png",
   },
   {
-    title: "工場跡地",
+    title: "工場等跡地",
     image: "property-factory-site.png",
   },
   {
-    title: "残置物の多い物件",
+    title: "残置物あり物件・告知あり物件",
     image: "property-leftovers.png",
   },
 ];
@@ -88,7 +88,7 @@ export default function Home() {
           <h1>難易度の高い不動産案件に、実務で応える。</h1>
           <p className={styles.heroLead}>
             不動産会社・金融機関のための複雑案件対応パートナー。
-            アパマン用地、収益物件、再建築不可、工場跡地、残置物の多い物件まで、
+            アパマン用地、収益物件、再建築不可、工場等跡地、残置物あり物件・告知あり物件まで、
             一般流通では扱いづらい不動産案件にも柔軟に対応します。
           </p>
           <div className={styles.heroProofs} aria-label="IR estate の強み">
