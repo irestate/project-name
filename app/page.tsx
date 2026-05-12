@@ -3,10 +3,10 @@ import PasswordGate from "./PasswordGate";
 
 const achievements = [
   {
-    area: "東京都足立区",
-    type: "収益物件（区分マンション）",
-    price: "5,000万円〜1億円",
-    feature: "賃借人の退去交渉を伴う案件",
+    area: "東京都大田区大森北",
+    type: "事業用地",
+    price: "非公開",
+    feature: "テナントビル用地として",
   },
   {
     area: "埼玉県川口市",
