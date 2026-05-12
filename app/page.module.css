@@ -118,6 +118,21 @@
   line-height: 1.25;
   letter-spacing: 0;
   color: #001f4d;
+  animation: blurInRight 900ms cubic-bezier(0.2, 0.8, 0.2, 1) 160ms both;
+}
+
+@keyframes blurInRight {
+  0% {
+    opacity: 0;
+    filter: blur(18px);
+    transform: translateX(56px);
+  }
+
+  100% {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+  }
 }
 
 .heroLead {
@@ -543,5 +558,11 @@
 
   .resultCard dl {
     grid-template-columns: 82px 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero h1 {
+    animation: none;
   }
 }
