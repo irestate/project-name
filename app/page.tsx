@@ -39,16 +39,20 @@ const propertyTypes = [
     image: "property-income.png",
   },
   {
-    title: "再建築不可",
-    image: "property-rebuild-disabled.png",
+    title: "区分マンション",
+    image: "property-income.png",
   },
   {
-    title: "工場等跡地",
+    title: "立退き案件",
     image: "property-factory-site.png",
   },
   {
-    title: "残置物あり物件・告知あり物件",
+    title: "残置物あり物件",
     image: "property-leftovers.png",
+  },
+  {
+    title: "再建築不可",
+    image: "property-rebuild-disabled.png",
   },
 ];
 
@@ -95,7 +99,7 @@ export default function Home() {
           <h1>難易度の高い不動産案件に、実務で応える。</h1>
           <p className={styles.heroLead}>
             不動産会社・金融機関のための複雑案件対応パートナー。
-            アパマン用地、事業用地、収益物件（レジ・ビル等）、再建築不可、工場等跡地、残置物あり物件・告知あり物件まで、
+            アパマン用地、事業用地、収益物件（レジ・ビル等）、区分マンション、立退き案件、残置物あり物件、再建築不可まで、
             一般流通では扱いづらい不動産案件にも柔軟に対応します。
           </p>
           <div className={styles.heroProofs} aria-label="IR estate の強み">
