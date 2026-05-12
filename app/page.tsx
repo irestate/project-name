@@ -67,7 +67,7 @@ export default function Home() {
         <nav className={styles.nav} aria-label="主要ナビゲーション">
           <a href="#top">トップ</a>
           <a href="#service">事業内容</a>
-          <a href="#results">取引実績</a>
+          <a href="#results">取引事例</a>
           <a href="#properties">取り扱い対象物件</a>
           <a href="#company">会社情報</a>
           <a href="#news">ニュース</a>
@@ -111,7 +111,7 @@ export default function Home() {
         <div className={styles.overviewGrid}>
           <section id="results" className={styles.results}>
             <div className={styles.sectionHeader}>
-              <h2>取引実績</h2>
+              <h2>取引事例</h2>
               <a href="#contact">一覧を見る</a>
             </div>
             <div className={styles.resultList}>
