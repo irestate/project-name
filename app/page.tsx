@@ -44,7 +44,7 @@ const propertyTypes = [
   },
   {
     title: "立退き案件",
-    image: "property-factory-site.png",
+    image: "property-eviction.png",
   },
   {
     title: "残置物あり物件",
