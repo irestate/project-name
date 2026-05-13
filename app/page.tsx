@@ -166,8 +166,8 @@ export default function Home() {
             </div>
             <div className={styles.company}>
               <div className={styles.companyBlock}>
-                <h3>免許番号</h3>
-                <p>千葉県知事（1）第18184号</p>
+                <h3>会社名</h3>
+                <p>株式会社 IR estate</p>
               </div>
               <div className={styles.companyBlock}>
                 <h3>所在地</h3>
@@ -180,6 +180,10 @@ export default function Home() {
                   <br />
                   Email: irestate@ir-estate.jp
                 </p>
+              </div>
+              <div className={styles.companyBlock}>
+                <h3>免許番号</h3>
+                <p>千葉県知事（1）第18184号</p>
               </div>
               <div className={styles.companyBlock}>
                 <h3>対応エリア</h3>
